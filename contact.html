@@ -1,27 +1,59 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-		<title>
-			contact
-		</title>
-	</head>
-	<body>
-		<div class="col-md-12 col-xs-12 col-lg-12 col-sm-12">
-			<div style="text-align:center; background-color:lightgrey">Contact Me</div>
-		</div>
-		<div>
-			<div class="col-md-6 col-xs-6 col-lg-6 col-sm-6">
-				<div class="col-md-3 col-xs-3 col-lg-3 col-sm-3">
-					<input type="text" placeholder="name">
-				</div>
-				<div class="col-md-3 col-xs-3 col-lg-3 col-sm-3" style="margin-left:50px">
-					<input type="text" placeholder="email">
-				</div>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="index.css">
+	<link rel="stylesheet" href="contact.css">
+	<title>
+		contact
+	</title>
+</head>
+<body>
+	<div class="col-md-12 col-xs-12 col-lg-12 col-sm-12" style="padding: 0">
+		<div class="nav-bar">
+			<div class="col-md-6 col-xs-6 col-lg-6 col-sm-6 intro">
+				<div id="name">Sunil Kumar Samal</div>
+				<div id="desg">Software Engineer, Bangalore, Karnataka</div>
 			</div>
-			<div class="col-md-6 col-xs-6 col-lg-6 col-sm-6">
-				hidden
+
+			<div class="col-md-6 col-xs-6 col-lg-6 col-sm-6 contents">
+				<ul>
+					<li>
+						<a href="index.html">About</a>
+					</li>
+					<li>
+						<a href="">Projects</a>
+					</li>
+					<li>
+						<a href="">Resume</a>
+					</li>
+					<li>
+						<a href="contact.html">Contact</a>
+					</li>
+				</ul>
 			</div>
 		</div>
-	</body>
+	</div>
+	<div>
+		<div class="col-md-6 col-xs-6 col-lg-6 col-sm-6 logos">
+		<div><font size="4"><span><b>Cell :</b></span><span> +91-8658210049</span></font></div>
+		<div><font size="4"><span><b>Mail :</b></span><a href="mailto:sunilk747@gmail.com"> sunilk747@gmail.com</a></span></font></div>
+		<div id="github"><a href="https://github.com/sunilk747"><img src="pics/github.png" alt="github" style="height:75px"></a></div>
+		<div id="twitter"><a href="https://twitter.com/_sunilkumar_"><img src="pics/twitter.png" alt="" style="height:60px; margin:10px; margin-left:3px"></a></div>
+		<div id="linkedin"><a href="https://www.linkedin.com/in/sunil-kumar-samal/"><img src="pics/linkedin.png" alt="linkedin" style="height:57px"></a></div>
+		</div>
+		<div class="col-md-6 col-xs-6 col-lg-6 col-sm-6" style="margin-left: -105px">
+			<div>
+				<form style="margin-left: 35px; margin-top: 125px">
+					<input type="text" placeholder="Name" style="margin: 6px"> <br>
+					<input type="text" placeholder="Email" style="margin: 6px"> <br>
+					<input type="text" placeholder="Subject" style="margin: 6px"> <br>
+					<textarea rows="4" cols="50" style="margin:6px; width: 357px; background-color: #D5D2D1">Enter your message ...</textarea> <br>
+					<input type="submit" value="Submit" style="width:65px; margin-left: 5px">
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+
 </html>

@@ -1,0 +1,15 @@
+input {
+    height: 35px;
+    width: 358px;
+    background-color: #D5D2D1;  
+}
+
+.logos {
+    /* text-align: center; */
+    margin-top: 175px;
+    margin-left: 105px;
+}
+
+#github, #linkedin, #twitter {
+    display: inline;
+}
